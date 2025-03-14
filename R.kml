@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>R</name>
+	<open>1</open>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<Style id="polygonStyle">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f00ffaa</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="polygonStyle0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#polygonStyle10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#polygonStyle2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="polygonStyle1">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f00ffaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="polygonStyle2">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000ffaa</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="polygonStyle3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#polygonStyle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#polygonStyle1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="polygonStyle4">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f00ffaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="polygonStyle5">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f00ffaa</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="polygonStyle6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#polygonStyle7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#polygonStyle5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="polygonStyle7">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f00ffaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="polygonStyle8">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f00ffaa</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="polygonStyle9">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#polygonStyle8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#polygonStyle4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="polygonStyle10">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000ffaa</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>Backbone of R</name>
+		<styleUrl>#polygonStyle3</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						76.01306033971179,28.79019644438392,0 76.18576525397785,28.78227722212474,0 76.20695332701774,30.06510659758884,0 76.01790752008988,30.07899433232428,0 76.01306033971179,28.79019644438392,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Upper Curve</name>
+		<styleUrl>#polygonStyle9</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						76.2,29.6,0 76.48690910365839,29.60288152828334,0 76.55344739612482,29.69117803203164,0 76.54746993770117,29.68340960296972,0 76.57378549735003,29.88222717235535,0 76.51926063679505,30.03051662463217,0 76.2070939213325,30.06343338297178,0 76.2,29.6,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Inner Cutout</name>
+		<styleUrl>#polygonStyle0</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						76.28461300059459,29.71642295503257,0 76.4538212780887,29.70777701576551,0 76.46180940148518,29.90335659456312,0 76.29024418816128,29.92561738111211,0 76.28461300059459,29.71642295503257,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Leg of R</name>
+		<styleUrl>#polygonStyle6</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						76.40000000000001,28.8,0 76.56973048375053,28.81855439996183,0 76.38928023201511,29.59970195617307,0 76.19681840346713,29.60294387463868,0 76.40000000000001,28.8,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
